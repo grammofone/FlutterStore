@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\kurak\\IdeaProjects\\FlutterStore\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\kurak\\.gradle\\caches\\transforms-2\\files-2.1\\b6befdabc45dbd7dde4c1ce20a2e8a85\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurak\\IdeaProjects\\FlutterStore\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\kurak\\.gradle\\caches\\transforms-2\\files-2.1\\b6befdabc45dbd7dde4c1ce20a2e8a85\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurak\\IdeaProjects\\FlutterStore\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\kurak\\.gradle\\caches\\transforms-2\\files-2.1\\b6befdabc45dbd7dde4c1ce20a2e8a85\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kurak\\IdeaProjects\\FlutterStore\\build\\shared_preferences\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\kurak\\.gradle\\caches\\transforms-2\\files-2.1\\b6befdabc45dbd7dde4c1ce20a2e8a85\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

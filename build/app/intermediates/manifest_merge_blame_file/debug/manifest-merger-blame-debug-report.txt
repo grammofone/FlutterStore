@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_shop"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:6:5-66
+14-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:7:5-79
+15-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:8:5-81
+16-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+17-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+18-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f2439d2801d88f1de60ccb90d68a478\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f2439d2801d88f1de60ccb90d68a478\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:22-76
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:14:5-37:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:15:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\b6befdabc45dbd7dde4c1ce20a2e8a85\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:17:9-43
+33        android:label="flutter_shop" >
+33-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:16:9-37
+34        <activity
+34-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:18:9-36:20
+35            android:name="com.example.flutter_shop.MainActivity"
+35-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:19:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:22:13-144
+37            android:hardwareAccelerated="true"
+37-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:23:13-47
+38            android:launchMode="singleTop"
+38-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:20:13-43
+39            android:theme="@style/LaunchTheme"
+39-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:21:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:24:13-55
+41
+42            <!--
+43                 This keeps the window background of the activity showing
+44                 until Flutter renders its first frame. It can be removed if
+45                 there is no splash screen (such as the default splash screen
+46                 defined in @style/LaunchTheme).
+47            -->
+48            <meta-data
+48-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:29:13-31:40
+49                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+49-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:30:17-82
+50                android:value="true" />
+50-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:31:17-37
+51
+52            <intent-filter>
+52-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:32:13-35:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:33:17-68
+53-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:33:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:34:17-76
+55-->C:\Users\kurak\IdeaProjects\FlutterStore\android\app\src\main\AndroidManifest.xml:34:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->[:firebase_storage] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[:firebase_storage] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+62            <meta-data
+62-->[:firebase_storage] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+63-->[:firebase_storage] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[:firebase_storage] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+65            <meta-data
+65-->[:firebase_database] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+66-->[:firebase_database] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_database] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[:firebase_auth] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+69-->[:firebase_auth] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_auth] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[:firebase_core] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+72-->[:firebase_core] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_core] C:\Users\kurak\IdeaProjects\FlutterStore\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f2439d2801d88f1de60ccb90d68a478\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+75                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+75-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f2439d2801d88f1de60ccb90d68a478\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f2439d2801d88f1de60ccb90d68a478\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-database:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\2008bb1cf89140a1412302e73dee0dd4\jetified-firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+78                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+78-->[com.google.firebase:firebase-database:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\2008bb1cf89140a1412302e73dee0dd4\jetified-firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-database:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\2008bb1cf89140a1412302e73dee0dd4\jetified-firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+81-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+83        </service>
+84
+85        <provider
+85-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+86            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+86-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+87            android:authorities="com.example.flutter_shop.flutter.image_provider"
+87-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+88            android:exported="false"
+88-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+89            android:grantUriPermissions="true" >
+89-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+90            <meta-data
+90-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+92                android:resource="@xml/flutter_image_picker_file_paths" />
+92-->[:image_picker] C:\Users\kurak\IdeaProjects\FlutterStore\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+93        </provider>
+94
+95        <activity
+95-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+96            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+96-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+100            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+100-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\efb865031fcc34d89fbbded74e1aa648\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\7b043569cffad8a32264065efb192163\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\7b043569cffad8a32264065efb192163\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+105            android:authorities="com.example.flutter_shop.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\7b043569cffad8a32264065efb192163\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\7b043569cffad8a32264065efb192163\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:17.0.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\7b043569cffad8a32264065efb192163\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f45d9f05c29b3b6ea82562d57af7777\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f45d9f05c29b3b6ea82562d57af7777\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f45d9f05c29b3b6ea82562d57af7777\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4f45d9f05c29b3b6ea82562d57af7777\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4fd2b5c986df3336cdfa9c2e189aef05\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4fd2b5c986df3336cdfa9c2e189aef05\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\kurak\.gradle\caches\transforms-2\files-2.1\4fd2b5c986df3336cdfa9c2e189aef05\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+117    </application>
+118
+119</manifest>
